@@ -1,0 +1,7 @@
+---
+Version: '2012-10-17'
+Statement: #Denies the Account from leaving the Organization
+- Effect: Deny
+  Action:
+  - organizations:LeaveOrganization
+  Resource: "*"

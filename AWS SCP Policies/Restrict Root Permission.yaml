@@ -1,0 +1,15 @@
+---
+Version: '2012-10-17'
+Statement:
+- Sid: RestrictEC2S3ForRoot #Denies permission to use any EC2 or S3 services
+      "Effect": "Deny",
+  Effect: Deny
+  Action:
+  - ec2:*
+  - s3:*
+  Resource:
+  - "*"
+  Condition:
+    StringLike:
+      aws:PrincipalArn:
+      - arn:aws:iam::*:root

@@ -1,0 +1,10 @@
+---
+Version: '2012-10-17'
+Statement:
+  Sid: DenyRootUser #Deny all access for root user of an account
+  Effect: Deny
+  Action: "*"
+  Resource: "*"
+  Condition:
+    StringLike:
+      aws:PrincipalArn: arn:aws:iam::*:root
