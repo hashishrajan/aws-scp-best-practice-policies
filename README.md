@@ -11,5 +11,5 @@ This is free for anyone to contribute into with security best practices. Feel fr
 
 
 Not all policies have been written by me. Some of the inspiration for these policies are from the following link
-- [AWS SCP OFFICIAL Example]: https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples.html 
-- [Scott Piper's Blog]: https://summitroute.com/blog/2020/03/25/aws_scp_best_practices/ 
+- [AWS SCP OFFICIAL Example](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples.html) 
+- [Scott Piper's Blog](https://summitroute.com/blog/2020/03/25/aws_scp_best_practices/) 
