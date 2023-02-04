@@ -3,10 +3,14 @@
 
 I was getting tired of finding multiple sources of good SCP policies that I can apply directly on an AWS Account on Day 1. This is a repository of AWS SCP which can be applied to AWS Accounts under an AWS Organization.
 
-### Folder
+### NOTE
+All the filetypes here are in YAML (not JSON) so you if you are copying this into AWS Organizations (SCP) they would need to be turned into JSON format. Alternatively you can share a JSON Folder of the SCPs as a PR and I can add that in :smirk: 
+
+### Folder Structure
 AWS SCP Policies - Day 0 - This folder has SCP Policies that can be applied on the day you start using AWS Organizations
 AWS SCP Policies - Post Day 0 - TBC
 
+## All SCP Policy Contributions are welcome
 This is free for anyone to contribute into with security best practices. Feel free to send over a PR and I can work with you on adding policies.
 
 
