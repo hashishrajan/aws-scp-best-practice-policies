@@ -13,3 +13,6 @@ This is free for anyone to contribute into with security best practices. Feel fr
 Not all policies have been written by me. Some of the inspiration for these policies are from the following link
 - [AWS SCP OFFICIAL Example](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples.html) 
 - [Scott Piper's Blog](https://summitroute.com/blog/2020/03/25/aws_scp_best_practices/) 
+
+For more Cloud Security Resources, Training, Interviews and more check out Cloud Security Podcast 
+[Website](www.cloudsecuritypodcast.tv) [YouTube](https://www.youtube.com/c/CloudSecurityPodcast?sub_confirmation=1) [Linkedin](https://www.linkedin.com/company/cloud-security-podcast/) [Apple](https://podcasts.apple.com/us/podcast/cloud-security-podcast/id1489678590) [Spotify](https://open.spotify.com/show/6LZgeh4GecRYPc0WrwMB4I) [Twitter](https://twitter.com/CloudSecPod)
