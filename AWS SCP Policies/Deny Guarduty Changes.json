@@ -1,0 +1,14 @@
+{
+  "Version": "2012-10-17",
+  "Statement": {
+    "Effect": "Deny",
+    "Action": [
+      "guardduty:DeleteDetector",
+      "guardduty:DisassociateFromMasterAccount",
+      "guardduty:UpdateDetector",
+      "guardduty:CreateFilter",
+      "guardduty:CreateIPSet"
+    ],
+    "Resource": "*"
+  }
+}
