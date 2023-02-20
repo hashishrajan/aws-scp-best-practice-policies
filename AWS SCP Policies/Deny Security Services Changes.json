@@ -1,0 +1,16 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Deny",
+      "Action": [
+        "access-analyzer:DeleteAnalyzer",
+        "ec2:DisableEbsEncryptionByDefault",
+        "s3:PutAccountPublicAccessBlock"
+      ],
+      "Resource": [
+        "*"
+      ]
+    }
+  ]
+}
