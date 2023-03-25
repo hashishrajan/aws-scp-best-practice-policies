@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Deny",
+      "Action": [
+        "ecs:DeleteCluster",
+        "ecs:DeleteService",
+        "ecs:DeleteTaskDefinitions",
+        "ecs:DeregisterTaskDefinition",
+        "ecs:DeregisterContainerInstance",
+        "ecs:DeleteAccountSetting",
+        "ecs:DeleteTaskSet"
+      ],
+      "Resource": "*"
+    }
+  ]
+ }
