@@ -2,6 +2,7 @@
   "Version": "2012-10-17",
   "Statement": [
     {
+      "Sid": "ECS Deny Delete Cluster,Task Definition etc SCP",
       "Effect": "Deny",
       "Action": [
         "ecs:DeleteCluster",
@@ -15,4 +16,4 @@
       "Resource": "*"
     }
   ]
- }
+}
