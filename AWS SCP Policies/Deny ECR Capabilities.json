@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ECR Deny Delete Repository,Image etc SCP",
+      "Effect": "Deny",
+      "Action": [
+        "ecr:BatchDeleteImage",
+        "ecr:DeleteLifecyclePolicy",
+        "ecr:DeletePullThroughCacheRule",
+        "ecr:DeleteRegistryPolicy",
+        "ecr:DeleteRepository",
+        "ecr:DeleteRepositoryPolicy"
+      ],
+      "Resource": "*"
+    }
+  ]
+ }
